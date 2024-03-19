@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+    color: #424242;
+}
+
+nav{
+    box-shadow:rgb(238, 238, 238) 2px 1px 2px 0px ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 90vw;
+    margin : auto;
+    color: #787878;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 10px 20px;
+}
+
+.logo{
+    padding: 10px 20px;
+}
+
+.line{
+    width: 20px;
+    height: 2px;
+    background-color: #787878;
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    margin-bottom: 20vh;
+}
+
+.flex{
+    display: flex;
+}
+
+.first .image{
+    width: 60vw;
+    margin : auto;
+}
+
+.first .image img{
+    width: 100%;
+}
+
+.first{
+    padding: 30px;
+}
+
+.first .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.first .content span:nth-child(1){
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.first .content span:nth-child(2){
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.first .button{
+    display: flex;
+    justify-content: center;
+}
+
+.first .button button{
+    padding: 15px 40px;
+    font-size:19px;
+    background-color: #387ed1;
+    font-weight: 400;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.second{
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.second .image img{
+    width: 40vw;
+}
+
+.second .content{
+    display: flex;
+    flex-direction: column;
+}
+.second .content .heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.second .content .heading span:nth-child(1){
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #424242;
+    line-height: 48px;
+}
+.second .content .heading span:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #424242;
+    line-height: 29px;
+}
+
+.second .content .list{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding: 19px;
+}
+
+.list ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    padding:5px;
+}
+
+.third{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.third .content .heading span{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.third .content .points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third .content .points .sub-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.third .content .points .sub-contents span:nth-child(1){
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;    
+}
+
+.third .content .points .sub-contents span:not(:nth-child(1)){
+    line-height: 29px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.third .image{
+    width: 60vw;
+    overflow: hidden;
+}
+
+.third .image img{
+    width: 100%;
+    object-fit: contain;
+}
+.third .image div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third .image div a{
+    padding:40px 30px;
+    font-size:16px;
+    color: #387ed1;
+    font-weight: 400;
+    line-height: 29px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.third .image div a:hover{
+    color: #444;
+}
+
+.fourth{
+    display: flex;
+    padding: 0px 50px;
+}
+
+.fourth .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fourth .content span:nth-child(1){
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.fourth .content span:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.fourth .content a{
+    font-size:16px;
+    color: #387ed1;
+    font-weight: 400;
+    line-height: 29px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.fourth .content a:hover{
+    color: #444;
+}
+
+table, tr,td{
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+}
+
+td{
+    padding: 30px;
+    width: 50%;
+}
+
+
+@media(max-width: 800px){
+    .second{
+        flex-direction: column;
+        gap: 8vh;
+        align-items: center;
+    }
+    .second .image img{
+        width: 65vw;
+    }
+
+    .second .image{
+        text-align: center;
+    }
+
+    .second .content .list{
+        flex-direction: column;
+        gap: 5vh;
+        align-items: flex-start;
+    }
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
